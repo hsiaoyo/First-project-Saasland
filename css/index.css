@@ -38,3 +38,27 @@
   color: white;
   font-size: 16px;
 }
+/* content */
+.section .main {
+  margin-bottom: 50px;
+}
+.section .intro h2 {
+  margin-bottom: 30px;
+  line-height: 1.4;
+  font-weight: bold;
+  color: #3f4352;
+}
+.section .intro p {
+  color: #838aa9;
+  font-size: 20px;
+}
+@media (min-width: 720px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 960px) {
+  .container {
+    max-width: 960px;
+  }
+}
