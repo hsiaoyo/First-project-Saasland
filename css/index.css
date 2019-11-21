@@ -56,6 +56,17 @@
   color: #838aa9;
   font-size: 20px;
 }
+.info {
+  text-align: center;
+}
+.info h3 {
+  margin-bottom: 1rem;
+  color: #3f4352;
+  font-weight: bold;
+}
+.info p {
+  color: #838aa9;
+}
 @media (min-width: 720px) {
   .container {
     max-width: 720px;
