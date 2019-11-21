@@ -68,6 +68,7 @@
   color: #838aa9;
 }
 .box h4 {
+  display: inline;
   margin-bottom: 1rem;
   color: #3f4352;
   font-weight: bold;
