@@ -120,6 +120,8 @@
 }
 .package {
   text-align: center;
+  position: relative;
+  background: white;
 }
 .name h5 {
   margin-top: 15px;
