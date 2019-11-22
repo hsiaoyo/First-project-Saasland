@@ -130,7 +130,12 @@ a.white-button:hover {
 .info p {
   color: #838aa9;
 }
+.middle {
+  width: 585px;
+  margin: 0 auto;
+}
 .function {
+  margin-top: 50px;
   padding-bottom: 30px;
 }
 .function a {
@@ -215,9 +220,6 @@ a.white-button:hover {
   margin-bottom: 15px;
   font-size: 18px;
   color: #838aa9;
-}
-.device-friendly .container {
-  width: 585px;
 }
 /* footer */
 #footer .before-bottom p {
