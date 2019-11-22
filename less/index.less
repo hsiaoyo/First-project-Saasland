@@ -22,7 +22,7 @@
   text-transform: capitalize;
   font-size: 15px;
   color: #007bff;
-  transition: all .3s linear; 
+  transition: all .3s linear;
   &:hover{
     background-color: #007bff ;
     color: white;
@@ -140,7 +140,14 @@
 }
 .function{
   padding-bottom: 30px;
-}
+  a{
+    display: inline-block;
+    &:hover{
+      text-decoration: none;
+      }
+    }
+  }
+
 .box{
   position: relative;
   padding: 10px 50px 120px 10px;
@@ -268,6 +275,12 @@
 		text-align: center;
 		line-height: 40px;
 		border-radius: 20px;
+    transition: all .3s linear;
+    &:hover{
+      background: @blue-background;
+      text-decoration: none;
+      color: white;
+    }
 	}
 }
 .contact{
@@ -291,12 +304,22 @@
   a{
 		font-weight: normal;
     font-size: 18px;
+    color:#007bff;
+    &:hover{
+      text-decoration: none;
+      color:#007bff;
+    }
 	}
 }
 .rules{
   ul{
     a{
       color: @light-gray;
+      transition: all .2s linear;
+      &:hover{
+        text-decoration: none;
+        color: #007bff;
+      }
     }
   li:first-child{
     margin-right: 0;
