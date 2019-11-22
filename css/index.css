@@ -2,6 +2,30 @@
   display: block;
   margin-top: 0;
 }
+#nav {
+  display: none;
+}
+#menu-trigger {
+  float: right;
+  width: 47px;
+  height: auto;
+}
+.trigger-nav {
+  position: fixed;
+  top: 13%;
+  z-index: 10;
+  background: white;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 2rem;
+}
+.trigger-nav li {
+  list-style-type: none;
+}
+.trigger-nav li:hover {
+  text-decoration-line: underline: ;
+}
 #logo a {
   display: inline-block;
 }
@@ -321,14 +345,18 @@ a.white-button:hover {
   .container {
     max-width: 720px;
   }
+  .box img {
+    transform: translateX(-60%);
+  }
 }
 @media (min-width: 960px) {
   .container {
     max-width: 960px;
   }
-}
-@media (min-width: 720px) {
-  .box img {
-    transform: translateX(-60%);
+  #nav {
+    display: block;
+  }
+  #menu-trigger {
+    display: none;
   }
 }
