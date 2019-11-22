@@ -23,6 +23,27 @@
   padding: 80px 0;
   background-color: #f0f0f5;
 }
+.buttons {
+  margin: 40px auto;
+  width: 430px;
+  padding: 20px;
+  border-radius: 40px;
+  background-color: white;
+}
+.switch-button {
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 40px;
+  text-decoration: none;
+  background-color: #009ae9;
+  color: white;
+  font-size: 20px;
+}
+.normal-button {
+  display: inline-block;
+  font-size: 20px;
+  color: #838aa9;
+}
 /* header */
 #header {
   background: white;
@@ -94,6 +115,32 @@
   width: 40%;
   height: auto;
 }
+.buttons .container {
+  padding: 0;
+}
+.package {
+  text-align: center;
+}
+.name h5 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+  color: #3f4352;
+}
+.name p {
+  margin: 0;
+  font-size: 16px;
+  color: #838aa9;
+}
+.value h2 {
+  display: inline-block;
+  margin: 20px 0;
+  font-size: 40px;
+  font-weight: bolder;
+  color: #3f4352;
+}
 @media (min-width: 720px) {
   .container {
     max-width: 720px;
@@ -106,6 +153,6 @@
 }
 @media (min-width: 720px) {
   .box img {
-    transform: translateX(-55%);
+    transform: translateX(-60%);
   }
 }
