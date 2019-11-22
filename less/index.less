@@ -1,5 +1,10 @@
 @import "useful.less";
 
+#logo{
+  a{
+    display: inline-block;
+  }
+}
 .container{
   max-width: 540px;
   margin: 0 auto;
@@ -193,6 +198,52 @@
   .container{
     width: 585px;
   }
+}
+/* footer */
+#footer{
+  .before-bottom{
+
+    p{
+      margin: 1.5rem 0;
+  		color: @light-gray
+  	}
+    h5.title{
+      text-transform: capitalize;
+  		font-size: 18px;
+  		font-weight: bold;
+  		color: @light-dark;
+    }
+    .simple-list{
+    	padding: 10px 0;
+    	a{
+    		color: @light-gray;
+    	}
+    	li{
+    		margin-bottom: 1rem;
+    		font-size: 18px;
+    		font-weight: 250;
+    	}
+    }
+  }
+  .end{
+    padding: 20px 0;
+    img.pic{
+      width:90%;
+    }
+  }
+}
+.social-media{
+	padding: 20px 0;
+	a{
+		display: inline-block;
+		background: rgb(235, 235, 2450);
+		color:@light-gray;
+		width: 40px;
+		height: 40px;
+		text-align: center;
+		line-height: 40px;
+		border-radius: 20px;
+	}
 }
 
 @media (min-width:720px) {
