@@ -118,10 +118,17 @@
 .buttons .container {
   padding: 0;
 }
+.program {
+  padding: 20px;
+}
 .package {
   text-align: center;
   position: relative;
+  padding: 20px;
   background: white;
+}
+.package hr {
+  width: 80%;
 }
 .name h5 {
   margin-top: 15px;
@@ -142,6 +149,15 @@
   font-size: 40px;
   font-weight: bolder;
   color: #3f4352;
+}
+.features ul {
+  list-style-type: none;
+  padding: 15px 0;
+}
+.features li {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #838aa9;
 }
 @media (min-width: 720px) {
   .container {
