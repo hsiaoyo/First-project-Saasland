@@ -236,6 +236,13 @@
   font-weight: normal;
   font-size: 18px;
 }
+.rules ul li:first-child {
+  margin-right: 0;
+}
+.rules ul li:first-child:after {
+  content: "|";
+  margin: 0 5px;
+}
 @media (min-width: 720px) {
   .container {
     max-width: 720px;
