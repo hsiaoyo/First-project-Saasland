@@ -75,7 +75,13 @@
     color: @light-gray;
   }
 }
+.function{
+  padding-bottom: 30px;
+}
 .box{
+  position: relative;
+  padding: 10px 50px 120px 10px;
+  background: white;
   h4{
     display: inline;
     margin-bottom: 1rem;
@@ -83,6 +89,17 @@
     font-weight: bold;
     text-transform: capitalize;
     font-size: 20px;
+  }
+  p{
+    margin: 1.2rem 0;
+    color: @light-gray;
+  }
+  img{
+    position: absolute;
+    right:0%;
+    bottom: 0%;
+    width: 40%;
+    height: auto;
   }
 }
 
@@ -92,4 +109,11 @@
 @media (min-width:960px){
   .container{max-width: 960px
   }
+}
+@media (min-width:720px) {
+  .box{
+    img{
+      transform:translateX(-60%);
+    }
+    }
 }
