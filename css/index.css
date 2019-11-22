@@ -17,6 +17,11 @@
   text-transform: capitalize;
   font-size: 15px;
   color: #007bff;
+  transition: all 0.3s linear;
+}
+.started-link:hover {
+  background-color: #007bff;
+  color: white;
 }
 .section {
   padding: 40px 0;
@@ -62,6 +67,25 @@
 #header {
   background: white;
 }
+#header #logo {
+  float: left;
+}
+#header #nav {
+  float: right;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: bold;
+}
+#header #nav li:hover {
+  text-decoration-line: underline: ;
+}
+#header ul {
+  margin-top: 1rem;
+}
+#header a {
+  color: black;
+}
+/* content */
 .blue-bg {
   background: #009ae9;
   padding: 20px 0;
@@ -77,7 +101,6 @@
   color: white;
   font-size: 16px;
 }
-/* content */
 .section .main {
   margin-bottom: 50px;
 }
@@ -236,12 +259,16 @@
   font-weight: normal;
   font-size: 18px;
 }
+.rules ul a {
+  color: #838aa9;
+}
 .rules ul li:first-child {
   margin-right: 0;
 }
 .rules ul li:first-child:after {
   content: "|";
   margin: 0 5px;
+  color: #838aa9;
 }
 @media (min-width: 720px) {
   .container {

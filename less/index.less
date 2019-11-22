@@ -22,6 +22,11 @@
   text-transform: capitalize;
   font-size: 15px;
   color: #007bff;
+  transition: all .3s linear; 
+  &:hover{
+    background-color: #007bff ;
+    color: white;
+  }
 }
 .section{
   padding: 40px 0;
@@ -68,7 +73,27 @@
 /* header */
 #header{
   background: white;
+  #logo{
+    float: left;
+  }
+  #nav{
+    float: right;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-weight: bold;
+    li:hover{
+      text-decoration-line: underline: ;
+    }
+  }
+  ul{
+    margin-top: 1rem;
+  }
+  a{
+    color:black;
+  }
 }
+
+/* content */
 .blue-bg{
   background: @blue-background;
   padding: 20px 0;
@@ -84,7 +109,7 @@
     font-size: 16px;
   }
 }
-/* content */
+
 .section{
   .main{
     margin-bottom: 50px;
@@ -270,13 +295,18 @@
 }
 .rules{
   ul{
+    a{
+      color: @light-gray;
+    }
   li:first-child{
     margin-right: 0;
     &:after{
       content:"|";
       margin:0 5px;
+      color: @light-gray;
     }
   }
+
   }
 }
 
