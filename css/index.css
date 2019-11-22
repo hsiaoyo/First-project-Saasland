@@ -259,6 +259,11 @@
 }
 .contact a {
   color: #838aa9;
+  transition: all 0.3s linear;
+}
+.contact a:hover {
+  color: #009ae9;
+  text-decoration: none;
 }
 .copyright h5 {
   display: inline;
