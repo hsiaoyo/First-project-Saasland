@@ -225,6 +225,17 @@
 .contact a {
   color: #838aa9;
 }
+.copyright h5 {
+  display: inline;
+  padding-right: 5px;
+  color: #838aa9;
+  font-weight: normal;
+  font-size: 18px;
+}
+.copyright a {
+  font-weight: normal;
+  font-size: 18px;
+}
 @media (min-width: 720px) {
   .container {
     max-width: 720px;
