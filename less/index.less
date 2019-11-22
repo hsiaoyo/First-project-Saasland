@@ -57,7 +57,7 @@
   font-size: 20px;
   color:@light-gray;
 }
-.white-button{
+a.white-button{
 	display: inline-block;
 	padding: 10px 30px;
 	border-radius: 40px;
@@ -67,6 +67,11 @@
 	color: @blue-background;
 	font-size: 16px;
 	text-transform: capitalize;
+  transition: all .3s linear;
+  &:hover{
+    background-color: @blue-background ;
+    color: white;
+  }
 }
 
 
@@ -180,6 +185,12 @@
 
 .program{
   padding: 20px;
+  a{
+    display: inline-block;
+    &:hover{
+      text-decoration: none;
+    }
+  }
 }
 .package{
   text-align: center;
@@ -188,6 +199,9 @@
   background: white;
   hr{
     width:80%
+  }
+  span{
+    color: @light-dark;
   }
 }
 

@@ -52,7 +52,7 @@
   font-size: 20px;
   color: #838aa9;
 }
-.white-button {
+a.white-button {
   display: inline-block;
   padding: 10px 30px;
   border-radius: 40px;
@@ -62,6 +62,11 @@
   color: #009ae9;
   font-size: 16px;
   text-transform: capitalize;
+  transition: all 0.3s linear;
+}
+a.white-button:hover {
+  background-color: #009ae9;
+  color: white;
 }
 /* header */
 #header {
@@ -164,6 +169,12 @@
 .program {
   padding: 20px;
 }
+.program a {
+  display: inline-block;
+}
+.program a:hover {
+  text-decoration: none;
+}
 .package {
   text-align: center;
   position: relative;
@@ -172,6 +183,9 @@
 }
 .package hr {
   width: 80%;
+}
+.package span {
+  color: #3f4352;
 }
 .name h5 {
   margin-top: 15px;
