@@ -27,6 +27,9 @@
 .trigger-nav li:hover {
   text-decoration-line: underline: ;
 }
+.dropdown-toggle:after {
+  display: none;
+}
 #logo a {
   display: inline-block;
 }
@@ -127,6 +130,9 @@ a.white-button:hover {
 #header ul {
   margin-top: 1rem;
 }
+#header ul.dropdown-menu {
+  margin: 0;
+}
 #header a {
   color: black;
 }
@@ -213,18 +219,16 @@ a.white-button:hover {
 .program {
   padding: 20px;
 }
-.program a.whole-part {
-  display: inline-block;
-}
-.program a.whole-part:hover {
-  text-decoration: none;
-  background: blue;
-}
 .package {
   text-align: center;
   position: relative;
   padding: 20px;
   background: white;
+  transition: all 0.3s linear;
+}
+.package:hover {
+  text-decoration: none;
+  box-shadow: 0 0 0 1px #66ccff;
 }
 .package hr {
   width: 80%;
