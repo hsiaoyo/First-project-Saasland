@@ -51,11 +51,18 @@
 	background-color: @blue-background;
 	color: white;
 	font-size: 20px;
+  &:hover{
+    color: white;
+  }
 }
 .normal-button{
   display: inline-block;
   font-size: 20px;
   color:@light-gray;
+  &:hover{
+    color: @light-gray;
+
+    }
 }
 a.white-button{
 	display: inline-block;
@@ -77,9 +84,9 @@ a.white-button{
 
 /* header */
 #header{
-  
+
   z-index: 10;
-  background: white;
+  background: @blue-background;
   width: 100%;
   #logo{
     float: left;
@@ -156,8 +163,11 @@ a.white-button{
   padding-bottom: 30px;
   a{
     display: inline-block;
+    transition: all .3s linear;
     &:hover{
       text-decoration: none;
+      box-shadow:0 0 0 1px #66ccff;
+
       }
     }
   }
@@ -166,6 +176,7 @@ a.white-button{
   position: relative;
   padding: 10px 50px 120px 10px;
   background: white;
+
   h4{
     display: inline;
     margin-bottom: 1rem;
@@ -194,11 +205,12 @@ a.white-button{
 
 .program{
   padding: 20px;
-  a{
-    display: inline-block;
-    &:hover{
+   a.whole-part{
+     display:inline-block;
+     &:hover{
       text-decoration: none;
-    }
+      background: blue;
+	}
   }
 }
 .package{
