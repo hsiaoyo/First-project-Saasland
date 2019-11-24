@@ -44,7 +44,7 @@ p, h1,h2,h3,h4,h5{
 .buttons{
   margin: 40px auto;
 	width: 80%;
-  padding: 20px;
+  padding: 20px 0;
 	border-radius: 40px;
 	background-color: white;
   .container{
@@ -52,7 +52,8 @@ p, h1,h2,h3,h4,h5{
   }
   a{
     display: inline-block;
-    font-size: 20px;
+    margin: 0px auto;
+    font-size: 16px;
     color:@light-gray;
     &:hover{
       color: @light-gray;
@@ -61,12 +62,13 @@ p, h1,h2,h3,h4,h5{
 }
 a.switch-button{
   display: inline-block;
-	padding: 10px 30px;
-	border-radius: 40px;
+  margin: 0px auto;
+	padding: 10px 20px;
+	border-radius: 10px;
 	text-decoration: none;
 	background-color: @blue-background;
 	color: white;
-	font-size: 20px;
+	font-size: 16px;
   &:hover{
     color: white;
   }
@@ -128,7 +130,7 @@ a.white-button{
     padding-bottom: 20px;
     line-height: 1.4;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 22px;
     color: white;
   }
   p.white-p{
@@ -147,10 +149,11 @@ a.white-button{
  			line-height: 1.4;
  		  font-weight: bold;
  			color: @light-dark;
+      font-size: 22px;
  	 }
  	 p{
  		  color: @light-gray;
- 			font-size: 20px;
+ 			font-size: 16px;
  	  }
    }
 }
@@ -166,10 +169,7 @@ a.white-button{
     color: @light-gray;
   }
 }
-// .middle{
-//   width:585px;
-//   margin: 0 auto;
-// }
+
 .function{
   margin-top: 50px;
   padding-bottom: 30px;
@@ -251,7 +251,7 @@ a.white-button{
   h2{
     display:inline-block;
 		margin: 20px 0;
-    font-size: 40px;
+    font-size: 2rem;
     font-weight: bolder;
 		color: @light-dark;
   }
@@ -381,17 +381,19 @@ a.white-button{
   }
 }
 @media (min-width:576px) {
-  .container{max-width: 540px;
+  // h1.white-title{font-size: 1.4rem;
+.functions{
+  display: flex;
+}
   }
 
 
-}
 
 
-@media (min-width:768px) {
-  .container{max-width: 720px;
-  }
-}
+// @media (min-width:768px) {
+//   .container{max-width: 720px;
+//   }
+// }
 @media (min-width:1024px){
   .container{max-width: 960px;
   }
