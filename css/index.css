@@ -30,6 +30,14 @@
 .dropdown-toggle:after {
   display: none;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5 {
+  word-wrap: break-word;
+}
 #logo a {
   display: inline-block;
 }
@@ -65,7 +73,7 @@
 }
 .buttons {
   margin: 40px auto;
-  width: 430px;
+  width: 80%;
   padding: 20px;
   border-radius: 40px;
   background-color: white;
@@ -110,10 +118,6 @@ a.white-button:hover {
   color: white;
 }
 /* header */
-.flexbox {
-  display: flex;
-  justify-content: flex-end;
-}
 #header {
   z-index: 10;
   background: #009ae9;
