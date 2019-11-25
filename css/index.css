@@ -371,6 +371,14 @@ a.white-button:hover {
   color: #838aa9;
 }
 @media (min-width: 576px) {
+  h1.white-title {
+    font-size: 1.4rem;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
 }
 @media (min-width: 1024px) {
   .container {
