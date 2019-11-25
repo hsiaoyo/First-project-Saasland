@@ -381,10 +381,8 @@ a.white-button{
   }
 }
 @media (min-width:576px) {
-  // h1.white-title{font-size: 1.4rem;
-.functions{
-  display: flex;
-}
+  h1.white-title{font-size: 1.4rem;
+
   }
 
 
@@ -397,6 +395,21 @@ a.white-button{
 @media (min-width:1024px){
   .container{max-width: 960px;
   }
+  .manage{
+    display: flex;
+    flex-direction: row;
+    .main{
+    flex-basis: 75%;
+      }
+  }
+  .send{
+    display:flex;
+    flex-direction:row-reverse;
+    .main{
+    flex-basis: 75%;
+      }
+  }
+
   #nav{
     display:block;
 

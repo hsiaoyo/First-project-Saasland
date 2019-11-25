@@ -371,13 +371,24 @@ a.white-button:hover {
   color: #838aa9;
 }
 @media (min-width: 576px) {
-  .functions {
-    display: flex;
-  }
 }
 @media (min-width: 1024px) {
   .container {
     max-width: 960px;
+  }
+  .manage {
+    display: flex;
+    flex-direction: row;
+  }
+  .manage .main {
+    flex-basis: 75%;
+  }
+  .send {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .send .main {
+    flex-basis: 75%;
   }
   #nav {
     display: block;
